@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border: 3px solid#23ADF3;
+    box-shadow: gray100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    margin: 40px;
+    padding: 20px;
+}
+.instruction{
+    font-size:25px;
+    padding: 30px;
+}
+h1{
+    color: #23ADF3;
+    padding: 30px;
+}
+h2{
+    padding: 20px;
+    color: red;
+}
+button{
+height: 35px;
+width: 100px;
+background-color:#23ADF3;
+border-radius: 10px;
+
+}
+button a{
+color: white;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 15px
+
+}
