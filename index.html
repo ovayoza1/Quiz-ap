@@ -11,14 +11,19 @@
 
 <body>
     <div class="container">
-        <h1>Welcome!</h1>
+        <h1 class="welcome">Welcome!</h1>
         <h3 class="instruction">Instructions:
             <p>You have 30mins for 20 questions.<br>Do not submit if you have 30secs left, it will submit automatically when your time is up.</p>
         </h3>
             <h2>Read the Instructions carefully before taking the test!</h2>
           
-            <button><a href="adminPage.html">Take Test</a></button>
+            <button id="showQuestions">Take Test</button>
     </div>
+
+    <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-firestore.js"></script>
+
+    <script src="app.js"></script>
 </body>
 
 </html>

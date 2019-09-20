@@ -16,7 +16,7 @@
     font-size:25px;
     padding: 30px;
 }
-h1{
+.welcome{
     color: #23ADF3;
     padding: 30px;
 }
@@ -27,7 +27,7 @@ h2{
 button{
 height: 35px;
 width: 100px;
-background-color:#23ADF3;
+background-color:rgb(54, 68, 75);
 border-radius: 10px;
 
 }
@@ -37,4 +37,48 @@ text-decoration: none;
 text-transform: uppercase;
 font-size: 15px
 
+}
+
+/* editQuestionsPage */
+.edit{
+
+
+
+}
+#list{
+    /* background-color: red; */
+    color: red;
+/* border: 2px solid green; */
+
+
+}
+.mainDiv{
+border: 2px solid green;
+margin: 20px 0;
+display:flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+span{
+    /* display: block; */
+}
+
+body{
+/* border: 1px solid white; */
+height: 50vh;
+background-color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.questionAns{
+    display: flex;
+    flex-direction: column;
+}
+
+i{
+    margin: 0 6px;z
 }
